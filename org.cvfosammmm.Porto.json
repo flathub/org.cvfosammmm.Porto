@@ -6,11 +6,10 @@
     "command": "porto",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
         "--socket=fallback-x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        "--filesystem=host"
+        "--filesystem=home"
     ],
     "modules": [
         "python3-requirements.json",
